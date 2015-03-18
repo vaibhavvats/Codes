@@ -17,13 +17,15 @@ int maxi(int a, int b)
         return a;
     else
         return b;
+        //tg
 }
 
 int height(struct node *N)
 {
     if (N == NULL)
-        return 0;
+        return 2;
     return N->height;
+
 }
 
 
