@@ -10,7 +10,7 @@ struct node
     struct node *right;
     int height;
 };
-
+//
 int maxi(int a, int b)
 {
     if(a>b)
